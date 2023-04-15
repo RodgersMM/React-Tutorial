@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 
 
-function UsePrevTwenty () {
+function PrevState () {
     //const initialCount = 0
     const [count, setCount] = useState(0)
 
@@ -22,4 +22,4 @@ function UsePrevTwenty () {
     )
 }
 
-export default UsePrevTwenty
+export default PrevState

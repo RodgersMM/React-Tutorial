@@ -5,18 +5,10 @@ import React, {useState} from "react";
 
 
 //Calling the Hook (at Top Level)
-function MultiCounter() {
+function MultiStates() {
     const initialCount = 0
     const [count, setCount] = useState (initialCount)
 
-    const incrementTen = () => {
-        for(let i=0; i<10; i++){
-            //Increase everytime by 1
-            //setCount (count + 1). This will increase by 1 not 10
-            setCount(prevCount => prevCount + 1)
-        }
-
-    }
 
 //Adding the JSX
 return (
@@ -35,12 +27,10 @@ return (
         {/*Button to increment by 5 */}
         <button onClick={()=>setCount(count + 5)} >Increment by 5 </button>
 
-         {/*Button to increment by ten*/}
-         <button onClick={incrementTen} >Increment by 10  </button>
-
+         
     </div>
 ) 
     
 }
 
-export default MultiCounter
+export default MultiStates

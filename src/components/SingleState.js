@@ -2,7 +2,7 @@ import React from 'react'
 import {useState} from 'react'
 
 //Step1: Create function Component 
-function BasicCounter(){
+function SingleState(){
     //calling the hook. Just a function so called as useState()
     const [count, setCount] = useState(0)
     return(
@@ -12,4 +12,4 @@ function BasicCounter(){
     )
 }
 
-export default BasicCounter
+export default SingleState

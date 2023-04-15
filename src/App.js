@@ -1,19 +1,24 @@
 
 import './App.css';
 
-import UsePrevTwenty from './components/UsePrevTwenty';
-import BasicCounter from './components/BasicCounter';
-import MultiCounter from './components/MultiCounter';
+
 import AclassCounter from './components/AclassCounter';
+import MultiStates from './components/MultiStates';
+import SingleState from './components/SingleState';
+import PrevState from './components/PrevState';
+import StateObject from './components/StateObject';
 
 function App() {
   return (
     <div className="App">
       {/* */}
       <AclassCounter /> 
-      <BasicCounter />
-      <MultiCounter />      
-      <UsePrevTwenty />
+      <SingleState />
+      <MultiStates />      
+      <PrevState />
+      <StateObject />
+
+    
 
     </div>
   );
