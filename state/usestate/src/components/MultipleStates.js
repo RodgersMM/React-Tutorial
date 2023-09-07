@@ -18,13 +18,13 @@ function MultipleStates() {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                />
-        
             </div>
         )
     }
 
     function Counter() {
-        const [count, setCount] =useState(10)
+        const [count, setCount] =useState(10);
+
         function addOne(){
             Counter(count + 1)
         }
@@ -33,7 +33,7 @@ function MultipleStates() {
   return (
     <div>
         <button onClick={addOne}> Count = {count} </button>
-        <button onClick={Counter}> Counter </button>
+        <button onClick={NameList}> Counter </button>
 
 
     </div>
