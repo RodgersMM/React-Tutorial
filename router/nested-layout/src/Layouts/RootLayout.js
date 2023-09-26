@@ -1,0 +1,22 @@
+import { NavLink, Outlet } from "react-router-dom"
+
+const RootLayout = () =>{
+    return(
+        <div className="root-layout">
+             <header>
+                <nav>
+                 <h1> Basic React Router</h1>
+                  <NavLink index >Home</NavLink>
+                  <NavLink to="about">About</NavLink>
+                  
+                </nav>
+             </header>
+
+             <main>
+                <Outlet />
+             </main>
+        </div>
+    )
+}
+
+export default RootLayout
