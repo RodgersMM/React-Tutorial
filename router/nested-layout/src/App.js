@@ -1,4 +1,3 @@
-
 import { createBrowserRouter, Route, createRoutesFromElements, RouterProvider} from 'react-router-dom';
 //Removes Routes, Link, NavLink
 
@@ -17,7 +16,7 @@ const router = createBrowserRouter([
     //Route can be assigned path & elements to layout routes
     
     path:'/', 
-    element: <RootLayout />,
+    element: <HelpLayout />,
     children: [
       {
         path:"about",
@@ -27,6 +26,7 @@ const router = createBrowserRouter([
       path:"home",
       element: <Home />,
     },
+
   ],
 },
 ]);

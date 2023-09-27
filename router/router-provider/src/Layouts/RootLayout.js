@@ -12,7 +12,6 @@ const RootLayout = () =>{
              </header>
 
              <main>
-                
                 <Outlet />
              </main>
         </div>
