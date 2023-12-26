@@ -1,21 +1,25 @@
 
 import './App.css';
-import Children from './components/ChildrenProp';
+import BasicProps from './components/BasicProps';
 import ChildrenProp from './components/ChildrenProp';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-
-     {/*Children Props*/} 
+    <div>
+      <div className="border   ">
+        {/*Children Props*/} 
      <h2>Children Props Usage</h2>
-     <ChildrenProp className="children-props">
-        <p>I am a Children Prop using <b><i>props.children </i></b>property</p>
+  
+      <ChildrenProp className="">
+         <p>I am a Children Prop using <b><i>props.children </i></b>property</p>
+      </ChildrenProp>
 
-     </ChildrenProp>
 
-
-
+      <h2>Basic Props Usage</h2>
+          <BasicProps name="Tonny" age="3" /> 
+          <BasicProps name="Ann" age="1.4" /> 
+          <BasicProps name="Linah" age="28" /> 
+    </div>
     </div>
   );
 }
