@@ -9,8 +9,8 @@ function App() {
 
      {/*Children Props*/} 
      <h2>Children Props Usage</h2>
-     <ChildrenProp>
-        <p>I am a Children Prop</p>
+     <ChildrenProp className="children-props">
+        <p>I am a Children Prop using <b><i>props.children </i></b>property</p>
 
      </ChildrenProp>
 

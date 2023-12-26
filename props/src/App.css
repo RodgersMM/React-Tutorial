@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.children-props{
+  text-decoration: solid;
+  border: solid yellow;
+  border-bottom: solid;
+  
+}
